@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
 
-export const connect = async () => {
-    await mongoose.connect('mongodb://localhost/twitter_Dev');
+export const connect = async() => {
+    await mongoose.connect('mongodb://0.0.0.0:27017/twitter_Dev');
 }
